@@ -1,17 +1,13 @@
-# Restaurant Order Analysis SQL
+# Restaurant Order Analysis using SQL
 
 ![heading](https://github.com/user-attachments/assets/ad0114d3-d2ad-4811-a5a1-cc581c0a3ca3)
 
 This project is a structured SQL-based analysis of restaurant orders, aimed at deriving key insights from transactional data. 
 
+
 # Project Brief
 ![objective](https://github.com/user-attachments/assets/2e833091-9d0b-4570-9385-d56e7cbaa925)
 
-![objective_1](https://github.com/user-attachments/assets/602843d5-68c0-4f49-a5ab-c3337791de73)
-
-![objective_2](https://github.com/user-attachments/assets/760f6224-c5e8-4c8e-8444-df6aaf3239ba)
-
-![objective_3](https://github.com/user-attachments/assets/9050c831-7866-4abc-961b-95f87fc8c027)
 
 ## Database Schema  
 
@@ -30,6 +26,26 @@ Order Trends: Analyzing peak ordering times and customer preferences.
 
 Performance Insights: Evaluating order frequency and restaurant efficiency.
 
+# Key Findings:
+The menu has 32 items across four categories: American, Asian, Mexican, and Italian.
+
+Shrimp Scampi is the most expensive item, while Edamame is the least expensive.
+
+The menu includes 9 Italian dishes, with Fettuccine Alfredo being the least expensive.
+
+A total of 5,370 orders were placed, with 12,234 items ordered within the dataset's date range.
+
+The highest number of items in a single order was Order #4305.
+
+Hamburger was the most ordered item, while Chicken Tacos was the least ordered.
+
+Order #440 had the highest spending, mostly on Italian dishes, suggesting demand for more Italian options.
+
+The top 5 highest-spending orders were from Order IDs: 440, 2075, 1957, 330, and 2675.
+
+These insights help optimize menu offerings, identify customer preferences, and improve restaurant sales strategies.
+
+# Problems solved
 ### -> View the menu_items table and write a query to find the number of items on the menu
 ```sql
 select * from menu_items;
